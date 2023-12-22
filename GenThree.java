@@ -1,5 +1,5 @@
 public class GenThree {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         int a = Integer.parseInt(args[0]);
         int b = Integer.parseInt(args[1]);
         int x = (int) (Math.random() * (a - b + 1 ) + b);
