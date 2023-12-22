@@ -1,6 +1,6 @@
 public class LinearEq{
 	public static void main(String[] args){
-	// define all  parשmetrs 
+	// define all  parametrs 
 	double a = Double.parseDouble(args[0]);
 	double b = Double.parseDouble(args[1]);
         double c = Double.parseDouble(args[2]);
