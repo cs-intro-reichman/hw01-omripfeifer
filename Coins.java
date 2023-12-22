@@ -1,13 +1,14 @@
-public class Coins {
-	public static void main(String [] args){
-		
-	int coins = Integer.parseInt(args[0]);
+class Coins {
+    public static void main(String [] args) {
 
-	// Calculate the number of quarters and cents	
-	int quarters = coins / 25; 
-	int cent = coins % 25;
-		
-	// print result
-	System.out.println("Use " + quarters + " quarters and " + cent + " cents");
-	}
+        // Parse command-line argument
+        int coins = Integer.parseInt(args[0]);
+
+        // Calculate the number of quarters and remaining cents
+        int quarters = coins / 25;
+        int cent = coins % 25;
+
+        // Print the result
+        System.out.println("Use " + quarters + " quarters and " + cent + " cents");
+    }
 }
